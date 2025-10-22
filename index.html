@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Vijay KJ</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <!-- Round profile image section -->
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+            <!-- Welcome description below the image -->
+            <p class="welcome-desc">Welcome to My Portfolio
+
+I'm <b><i>VIJAY</i></b>, an aspiring software engineer with a focus on creating work that is both impactful and meaningful.
+Here, you’ll find a curated selection of my projects, showcasing my skills, creativity, and growth over time. Whether you're here to explore, collaborate, or just get inspired, I hope you enjoy your visit.</p>
+            <!-- Animated neon CV download button -->
+            <button id="download-cv" class="neon-btn">Download CV</button>
+        </section>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="margin-bottom: 20px;"> I'm a passionate and driven developer with a strong foundation in web development, programming, and problem solving. I enjoy building clean, functional web applications and constantly expanding my skill set in the world of technology and AI.
+
+
+
+</p>
+<p style="margin-bottom: 20px;">With intermediate experience in HTML, CSS, JavaScript, and modern web tools, I’m comfortable creating responsive and user-friendly interfaces. I also have a solid understanding of Python, Java, and C, and love tackling algorithmic challenges that sharpen my logical thinking.</p>
+<p>Lately, I’ve been exploring the exciting field of Artificial Intelligence, including areas like machine learning — and I’m eager to keep learning and building smarter, data-driven applications.</p>
+            <h3>Education</h3>
+            <ul class="ed-detail">
+                <li>Class X,97%
+                    <p style="margin-bottom: 20px;">Green valley public school-2021</p>
+                </li>
+                
+                <li>Class XII,95%
+                    <p style="margin-bottom: 20px;">Mahila samaja PU college-2023</p>
+                </li>
+                <li>B.E in Information Science and Engineering
+                    <p style="margin-bottom: 20px;">Cambridge Institute of Technology,2023-2027</p>
+                </li>
+                <!-- Add more education details as needed -->
+            </ul>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills and knowledge </h2>
+            <ul class="skills-list">
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Data Structures</li>
+                <li>Large Language Models (LLM)</li>
+                <li>Generative AI</li>
+                <li>Git and GitHub</li>
+                
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Weather app</h3>
+                    <p>Weather App is a lightweight web application built using HTML, CSS, and JavaScript. It fetches real-time weather data from an external API and displays key weather information like temperature, humidity, wind speed, and conditions for any searched city.
+</p>
+                </div>
+                <div class="project">
+                    <h3>Face detection</h3>
+                    <p>A face detection application developed in Python using the OpenCV library. The program leverages Haar Cascade model to identify human faces in images or live video streams. It processes each frame, detects face coordinates, and draws bounding boxes around detected faces. Ideal for understanding real-time computer vision techniques and OpenCV's powerful image processing capabilities.
+
+</p>
+                </div>
+                <div class="project">
+                    <h3>Calculator</h3>
+                    <p>A desktop calculator application developed using Java Swing, featuring a graphical user interface with buttons for digits and operations. The app handles basic arithmetic calculations and demonstrates event-driven programming, layout management, and user interaction handling in Java. Ideal for understanding core Java GUI development.
+
+</p>
+                </div>
+                <!-- Add more projects -->
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+          <form action="send-email.php" method="POST">
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit" class="neon-btn">Send</button>
+</form>
+
+            <!-- Simple buttons for LinkedIn and GitHub -->
+            <div class="social-buttons">
+                <a href="https://linkedin.com/in/Vijay KJ" target="_blank" class="simple-btn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/vijaykj369" target="_blank" class="simple-btn"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Vijay. All rights reserved.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
